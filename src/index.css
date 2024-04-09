@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar Start============== */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color:rgb(254,254,254);
+    border: 1px solid black;
+}
+
+.navCon{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    margin-right: 50px;
+}
+
+.img
+{
+    height: 98px;
+    width: 130px;
+    margin-left: 10px;
+}
+
+/* Navbar End================================= */
+
+.res-container
+{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+   
+}
+
+.res-card-content
+{
+    margin-top: 2px;
+    height: 380px;
+    width: 200px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.btns{
+    margin-top: 10px;
+    display: flex;
+    gap:10px;
+}
+
+/* Shimmer Start */
+.shimmer-container
+{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.shimmer-card
+{
+    margin-top: 10px;
+    height: 360px;
+    width: 200px;
+    gap:15px;
+    background-color:#f0f0f0;
+}
